@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="cars_comms" type="car1.py" name="car1" output="screen"></node>
+    <node pkg="cars_comms" type="car5.py" name="car5" output="screen"></node>
+    <node pkg="cars_comms" type="car2.py" name="car2" output="screen"></node>
+    <node pkg="cars_comms" type="car3.py" name="car3" output="screen"></node>
+    <node pkg="cars_comms" type="car4.py" name="car4" output="screen"></node>
+    <node pkg="cars_comms" type="animation.py" name="animate" output="screen"></node>
+</launch>
